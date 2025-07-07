@@ -31,12 +31,14 @@ using TMPro;
          }
  
          
-     }
+     } 
+     
+     
+     public void Diminuir()
+       {
+           numero--;
+           UITexto.text = novoTexto + " " + numero;
+       }
  }
 
 
- public void Diminuir()
- {
-     numero--;
-     UITexto.text = novoTexto + '' + numero;
- }
