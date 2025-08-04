@@ -1108,6 +1108,7 @@ GameObject:
   - component: {fileID: 1045167152}
   - component: {fileID: 1045167151}
   - component: {fileID: 1045167150}
+  - component: {fileID: 1045167154}
   - component: {fileID: 1045167153}
   m_Layer: 5
   m_Name: Button. iniciar
@@ -1180,7 +1181,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1045167153}
+      - m_Target: {fileID: 1045167154}
         m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
         m_MethodName: Load
         m_Mode: 1
@@ -1242,7 +1243,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ddd3b7b6631d2489cf53dd1792d7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SampleScene
+--- !u!114 &1045167154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045167148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b548e85e171a32b4c8a550d5b61cd506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!1 &1100385595
 GameObject:
   m_ObjectHideFlags: 0
